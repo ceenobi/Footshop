@@ -104,7 +104,7 @@ export default function Checkoutdetails() {
               name='paymentmethod'
               id={text}
               value={value}
-              defaultChecked={value === 'cash'}
+              defaultChecked={value === paymentMethod}
               onChange={(e) => setPaymentMethod(e.target.value)}
             />
             <label className='form-check-label' htmlFor={value}>
